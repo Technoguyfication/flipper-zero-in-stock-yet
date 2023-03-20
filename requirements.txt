@@ -1,0 +1,2 @@
+beautifulsoup4>=4.11.2
+twilio>=7.16.5
