@@ -19,7 +19,7 @@ version: '3'
 
 services:
     fzisy:
-        image: ghcr.io/technoguyfication/fzisy:latest
+        image: ghcr.io/technoguyfication/fzisy:main
         container_name: fzisy
         restart: unless-stopped
 
@@ -38,7 +38,7 @@ docker run -d --name fzisy \
 -e TWILIO_AUTH_TOKEN="Your auth token" \
 -e TWILIO_FROM_NUMBER="Your Twilio number" \
 -e SMS_BROADCAST_LIST="+15558675309,+15558675310" \
-ghcr.io/technoguyfication/fzisy:latest
+ghcr.io/technoguyfication/fzisy:main
 ```
 
 ### Running Manually
