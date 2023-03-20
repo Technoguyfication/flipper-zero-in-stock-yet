@@ -18,16 +18,16 @@ docker-compose.yml:
 version: '3'
 
 services:
-    fzisy:
-        image: ghcr.io/technoguyfication/fzisy:main
-        container_name: fzisy
-        restart: unless-stopped
+  fzisy:
+    image: ghcr.io/technoguyfication/fzisy:main
+    container_name: fzisy
+    restart: unless-stopped
 
-        environment:
-            TWILIO_ACCOUNT_SID: "Your account SID"
-            TWILIO_AUTH_TOKEN: "Your auth token"
-            TWILIO_FROM_NUMBER: "Your Twilio number"
-            SMS_BROADCAST_LIST: "+15558675309,+15558675310"
+    environment:
+      TWILIO_ACCOUNT_SID: "Your account SID"
+      TWILIO_AUTH_TOKEN: "Your auth token"
+      TWILIO_FROM_NUMBER: "Your Twilio number"
+      SMS_BROADCAST_LIST: "+15558675309,+15558675310"
 ```
         
 Docker Standalone:
