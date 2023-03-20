@@ -7,7 +7,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: fzisy
+  IMAGE_NAME: ${{ github.repository }}
 
 jobs:
   build-push-image:
