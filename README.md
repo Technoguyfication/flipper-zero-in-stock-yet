@@ -1,8 +1,12 @@
 # flipper-zero-in-stock-yet
 
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/technoguyfication/flipper-zero-in-stock-yet/docker-publish.yml)
+
 ## Description
 
 This is a simple script that checks if Flipper Zero is in stock yet and sends a notification via the Twilio API to a list of phone numbers if it is.
+
+If I find out this script is being used for scalping, I swear to god I will shove my foot so far up your ass you won't be able to breathe anymore.
 
 ## Getting Started
 
